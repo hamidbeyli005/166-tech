@@ -7,6 +7,14 @@
 	color: black;
 }
 
+
+
+
+
+
+
+
+
 section {
 	margin-bottom: 120px;
 }
@@ -242,6 +250,7 @@ h5 {
 	background: #F5F5F5;
 	border: none;
 	transition: 250ms all;
+	font-weight: 400;
 }
 
 #exam-section .wrapper .filter ul li:hover,

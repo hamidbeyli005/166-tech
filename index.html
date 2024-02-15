@@ -10,12 +10,44 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        /* Your CSS styles here */
+        .menu {
+            display: none;
+            /* Hide the menu by default */
+        }
+        .menu2 {
+            display: none;
+            /* Hide the menu by default */
+        }
+
+        .menu.active {
+            display: block;
+            /* Show the menu when active class is added */
+        }
+
+        .menu2.active{
+            display: block;
+        }
+
+    </style>
 </head>
 
 <body>
     <header>
+        <div class="hamburger-menu" onclick="toggleMenu()">
+            <!-- Hamburger icon -->
+            icon
+           
+        </div>
+
+        <div class="menu2">
+
+            listim
+        </div>
+
         <a href="#" class="logo">Logo</a>
-        <nav>
+        <nav class="menu">
             <ul>
                 <li><a href="#">Haqqımızda</a></li>
                 <li><a href="#">Kitablar</a></li>
@@ -342,6 +374,13 @@
         </div>
     </footer>
 
+
+    <script>
+        function toggleMenu() {
+            var menu = document.querySelector('.menu2');
+            menu.classList.toggle('active');
+        }
+    </script>
 </body>
 
 </html>
