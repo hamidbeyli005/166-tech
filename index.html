@@ -3,7 +3,10 @@
 
 <head>
     <title>Site Title</title>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
@@ -34,46 +37,285 @@
     <main>
         <section id="hero-section">
             <div class="content">
-                <h1>İmtahanlar</h1>
+                <h2>İmtahanlar</h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and
                     scrambled it</p>
             </div>
         </section>
 
         <section id="category-section">
 
-                <h4>İmtahan</h4>
-                <h1>Kateqoriya seç</h1>
-                
-                <div class="box-container">
-                    <a href="#" class="box">
-                        <h3>Buraxılış</h3>
-                    </a>
-                    <a href="#" class="box">
-                        <h3>Blok</h3>
-                    </a>
-                    <a href="#" class="box">
-                        <h3>Təkmilləşmə</h3>
-                    </a>
-                    <a href="#" class="box">
-                        <h3>İbtidai sinif</h3>
-                    </a>
-                    <a href="#" class="box">
-                        <h3>Liseylərə</h3>
-                    </a>
-                    <a href="#" class="box">
-                        <h3>Magistratura</h3>
-                    </a>
-                    <a href="#" class="box">
-                        <h3>Olimpiadalar</h3>
-                    </a>
-                    <a href="#" class="box">
-                        <h3>Fənn imtahanı</h3>
-                    </a>
+            <h5>İmtahan</h5>
+            <h2>Kateqoriya seç</h2>
+
+            <div class="box-container">
+                <a href="#" class="box">
+                    Buraxılış
+                </a>
+                <a href="#" class="box">
+                    Blok
+                </a>
+                <a href="#" class="box">
+                    Təkmilləşmə
+                </a>
+                <a href="#" class="box">
+                    İbtidai sinif
+                </a>
+                <a href="#" class="box">
+                    Liseylərə
+                </a>
+                <a href="#" class="box">
+                    Magistratura
+                </a>
+                <a href="#" class="box">
+                    Olimpiadalar
+                </a>
+                <a href="#" class="box">
+                    Fənn imtahanı
+                </a>
+            </div>
+        </section>
+        <section id="exam-section">
+            <h5 class="text-center">Ən çox işlənənlər</h5>
+            <h2 class="text-center">İmtahanlar</h2>
+
+            <div class="wrapper">
+
+                <div class="filter">
+                    <h4>Filter</h4>
+                    <div class="filter-category">
+                        <p>Kategoriyalar</p>
+                        <ul>
+                            <li class="btn active">Ibtidai sinif</li>
+                            <li class="btn">Buraxılış</li>
+                            <li class="btn">Blok</li>
+                            <li class="btn">Təkmilləşdirmə</li>
+                            <li class="btn">Liseylərə</li>
+                            <li class="btn">Magistratura</li>
+                            <li class="btn">Olimpiada</li>
+                            <li class="btn">Fənn imtahanı</li>
+                        </ul>
+                    </div>
+                    <div class="filter-tag">
+                        <p>Etiketlər</p>
+                        <ul>
+                            <li class="btn">2 - cü sinif</li>
+                            <li class="btn">3 - cü sinif</li>
+                            <li class="btn active">4 - cü sinif</li>
+                        </ul>
+                    </div>
                 </div>
-            </section>
-        </main>
+
+                <div class="exam-container">
+
+
+                    <div class="exam-block">
+                        <h3 class="exam-title">3-cü sinif imtahani</h3>
+
+                        <div class="exam-metadata">
+
+                            <p class="duration">
+                                <img src="/images//time.svg" alt="time">
+                                45 dəqiqə
+                            </p>
+
+                            <div class="rating">
+                                <img src="images/star.svg" class="rating-star" alt="star">
+                                <img src="images/star.svg" class="rating-star" alt="star">
+                                <img src="images/star.svg" class="rating-star" alt="star">
+                                <img src="images/star.svg" class="rating-star" alt="star">
+                                <img src="images/star-empty.svg" class="rating-star" alt="star">
+
+                                <span class="review-count">2 ray</span>
+                            </div>
+                        </div>
+                        <p class="questions">Suallar</p>
+                        <ul class="subjects">
+                            <li>10 sual - Azərbaycan dili</li>
+                            <li>10 sual - Riyaziyyat</li>
+                        </ul>
+                        <div class="divider"></div>
+                        <div class="grade-levels">
+                            <div class="tag">ibtidai sinif</div>
+                            <div class="tag">3-cü sinif</div>
+                        </div>
+                        <button class="btn price-btn">1 AZN - indi al</button>
+                    </div>
+                    <div class="exam-block">
+                        <h3 class="exam-title">3-cü sinif imtahani</h3>
+
+                        <div class="exam-metadata">
+
+                            <p class="duration">
+                                <img src="/images//time.svg" alt="time">
+                                45 dəqiqə
+                            </p>
+
+                            <div class="rating">
+                                <img src="images/star.svg" class="rating-star" alt="star">
+                                <img src="images/star.svg" class="rating-star" alt="star">
+                                <img src="images/star.svg" class="rating-star" alt="star">
+                                <img src="images/star.svg" class="rating-star" alt="star">
+                                <img src="images/star-empty.svg" class="rating-star" alt="star">
+
+                                <span class="review-count">2 ray</span>
+                            </div>
+                        </div>
+                        <p class="questions">Suallar</p>
+                        <ul class="subjects">
+                            <li>10 sual - Azərbaycan dili</li>
+                            <li>10 sual - Riyaziyyat</li>
+                        </ul>
+                        <div class="divider"></div>
+                        <div class="grade-levels">
+                            <div class="tag">ibtidai sinif</div>
+                            <div class="tag">3-cü sinif</div>
+                        </div>
+                        <button class="btn price-btn">1 AZN - indi al</button>
+                    </div>
+                    <div class="exam-block">
+                        <h3 class="exam-title">3-cü sinif imtahani</h3>
+
+                        <div class="exam-metadata">
+
+                            <p class="duration">
+                                <img src="/images//time.svg" alt="time">
+                                45 dəqiqə
+                            </p>
+
+                            <div class="rating">
+                                <img src="images/star.svg" class="rating-star" alt="star">
+                                <img src="images/star.svg" class="rating-star" alt="star">
+                                <img src="images/star.svg" class="rating-star" alt="star">
+                                <img src="images/star.svg" class="rating-star" alt="star">
+                                <img src="images/star-empty.svg" class="rating-star" alt="star">
+
+                                <span class="review-count">2 ray</span>
+                            </div>
+                        </div>
+                        <p class="questions">Suallar</p>
+                        <ul class="subjects">
+                            <li>10 sual - Azərbaycan dili</li>
+                            <li>10 sual - Riyaziyyat</li>
+                        </ul>
+                        <div class="divider"></div>
+                        <div class="grade-levels">
+                            <div class="tag">ibtidai sinif</div>
+                            <div class="tag">3-cü sinif</div>
+                        </div>
+                        <button class="btn price-btn">1 AZN - indi al</button>
+                    </div>
+                    <div class="exam-block">
+                        <h3 class="exam-title">3-cü sinif imtahani</h3>
+
+                        <div class="exam-metadata">
+
+                            <p class="duration">
+                                <img src="/images//time.svg" alt="time">
+                                45 dəqiqə
+                            </p>
+
+                            <div class="rating">
+                                <img src="images/star.svg" class="rating-star" alt="star">
+                                <img src="images/star.svg" class="rating-star" alt="star">
+                                <img src="images/star.svg" class="rating-star" alt="star">
+                                <img src="images/star.svg" class="rating-star" alt="star">
+                                <img src="images/star-empty.svg" class="rating-star" alt="star">
+
+                                <span class="review-count">2 ray</span>
+                            </div>
+                        </div>
+                        <p class="questions">Suallar</p>
+                        <ul class="subjects">
+                            <li>10 sual - Azərbaycan dili</li>
+                            <li>10 sual - Riyaziyyat</li>
+                        </ul>
+                        <div class="divider"></div>
+                        <div class="grade-levels">
+                            <div class="tag">ibtidai sinif</div>
+                            <div class="tag">3-cü sinif</div>
+                        </div>
+                        <button class="btn price-btn">1 AZN - indi al</button>
+                    </div>
+                    <div class="exam-block">
+                        <h3 class="exam-title">3-cü sinif imtahani</h3>
+
+                        <div class="exam-metadata">
+
+                            <p class="duration">
+                                <img src="/images//time.svg" alt="time">
+                                45 dəqiqə
+                            </p>
+
+                            <div class="rating">
+                                <img src="images/star.svg" class="rating-star" alt="star">
+                                <img src="images/star.svg" class="rating-star" alt="star">
+                                <img src="images/star.svg" class="rating-star" alt="star">
+                                <img src="images/star.svg" class="rating-star" alt="star">
+                                <img src="images/star-empty.svg" class="rating-star" alt="star">
+
+                                <span class="review-count">2 ray</span>
+                            </div>
+                        </div>
+                        <p class="questions">Suallar</p>
+                        <ul class="subjects">
+                            <li>10 sual - Azərbaycan dili</li>
+                            <li>10 sual - Riyaziyyat</li>
+                        </ul>
+                        <div class="divider"></div>
+                        <div class="grade-levels">
+                            <div class="tag">ibtidai sinif</div>
+                            <div class="tag">3-cü sinif</div>
+                        </div>
+                        <button class="btn price-btn">1 AZN - indi al</button>
+                    </div>
+                    <div class="exam-block">
+                        <h3 class="exam-title">3-cü sinif imtahani</h3>
+
+                        <div class="exam-metadata">
+
+                            <p class="duration">
+                                <img src="/images//time.svg" alt="time">
+                                45 dəqiqə
+                            </p>
+
+                            <div class="rating">
+                                <img src="images/star.svg" class="rating-star" alt="star">
+                                <img src="images/star.svg" class="rating-star" alt="star">
+                                <img src="images/star.svg" class="rating-star" alt="star">
+                                <img src="images/star.svg" class="rating-star" alt="star">
+                                <img src="images/star-empty.svg" class="rating-star" alt="star">
+
+                                <span class="review-count">2 ray</span>
+                            </div>
+                        </div>
+                        <p class="questions">Suallar</p>
+                        <ul class="subjects">
+                            <li>10 sual - Azərbaycan dili</li>
+                            <li>10 sual - Riyaziyyat</li>
+                        </ul>
+                        <div class="divider"></div>
+                        <div class="grade-levels">
+                            <div class="tag">ibtidai sinif</div>
+                            <div class="tag">3-cü sinif</div>
+                        </div>
+                        <button class="btn price-btn">1 AZN - indi al</button>
+                    </div>
+
+                    <button class="more-btn">Daha çox</button>
+
+
+
+
+                </div>
+
+            </div>
+
+
+        </section>
+    </main>
     <footer>
         <p>Copyright © 2023 Site Name</p>
     </footer>
