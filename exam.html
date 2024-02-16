@@ -11,44 +11,32 @@
         rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" type="text/css" href="exam.css">
-    <style>
-        /* Your CSS styles here */
-        .menu {
-            display: none;
-            /* Hide the menu by default */
-        }
-
-        .menu2 {
-            display: none;
-            /* Hide the menu by default */
-        }
-
-        .menu.active {
-            display: block;
-            /* Show the menu when active class is added */
-        }
-
-        .menu2.active {
-            display: block;
-        }
-    </style>
+    
 </head>
 
 <body>
     <header>
-        <div class="hamburger-menu" onclick="toggleMenu()">
-            <!-- Hamburger icon -->
-            icon
-
-        </div>
-
-        <div class="menu2">
-
-            listim
+        <img src="./images/hamburger.png" height='40px' alt="menu" class="hamburger-menu-icon">
+        <div class="hamburger-menu">
+            <ul>
+                <li><a href="#">Haqqımızda</a></li>
+                <li><a href="#">Kitablar</a></li>
+                <li><a href="#">İmtahanlar</a></li>
+                <li><a href="#">Bizimlə əlaqə</a></li>
+                <li>
+                    <select style="width: 80px;">
+                        <option value="az">Az</option>
+                        <option value="ru">Ru</option>
+                        <option value="en">En</option>
+                    </select>
+                </li>
+            </ul>
         </div>
 
         <a href="/index.html" class="logo">Logo</a>
+
         <nav class="menu">
+
             <ul>
                 <li><a href="#">Haqqımızda</a></li>
                 <li><a href="#">Kitablar</a></li>
